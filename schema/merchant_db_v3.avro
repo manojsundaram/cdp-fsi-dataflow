@@ -1,0 +1,19 @@
+{
+ "name": "merchant_db_v3",
+ "namespace": "nifi.examples",
+ "type": "record",
+ "fields": [
+  {
+   "name": "merchant_id",
+   "type": "string"
+  },
+  {
+   "name": "category",
+   "type": "string"
+  },
+  {
+   "name": "merchant_name",
+   "type": "string"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "name": "age_gender_demographics",
+ "namespace": "nifi.examples",
+ "type": "record",
+ "fields": [
+  {
+   "name": "id",
+   "type": "int"
+  },
+  {
+   "name": "age",
+   "type": "int"
+  },
+  {
+   "name": "gender",
+   "type": "string"
+  },
+  {
+   "name": "prop",
+   "type": "double"
+  }
+ ]
+}
