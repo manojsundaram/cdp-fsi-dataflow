@@ -1,8 +1,8 @@
 create database if not exists realtimebankref;
 CREATE TABLE if not exists realtimebankref.age_gender_demographics
 (
-`id` int,
-age int,
+`id` string,
+age string,
 gender string,
 prop double,
 PRIMARY KEY (`id`)
