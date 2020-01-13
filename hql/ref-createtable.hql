@@ -4,7 +4,7 @@ CREATE TABLE if not exists realtimebankref.age_gender_demographics
 `id` string,
 age string,
 gender string,
-prop double,
+prop string,
 PRIMARY KEY (`id`)
 )
 PARTITION BY HASH PARTITIONS 10
