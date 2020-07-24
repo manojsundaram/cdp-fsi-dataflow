@@ -1,5 +1,5 @@
-create database realtimebank;
-CREATE TABLE realtimebank.customer_txns
+create database if not exists realtimebank;
+CREATE TABLE if not exists realtimebank.customer_txns
 (
 `timestamp` string,
 cif string,
